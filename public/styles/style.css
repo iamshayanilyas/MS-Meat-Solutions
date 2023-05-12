@@ -158,7 +158,8 @@ h4 {
 
 /* button component */
 .button {
-  background: var(--successGreen);
+  /* background: var(--successGreen); */
+  background: #4CBAD8;
   color: var(--fontPrimary);
   padding: 0.6rem 1.2rem;
   font-weight: 600;
@@ -174,7 +175,7 @@ h4 {
 }
 
 .button:hover {
-  background: var(--fontPrimary);
+  background: #AB5353;
   color: #fff;
 }
 

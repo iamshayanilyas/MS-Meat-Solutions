@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ParticlesBg from "particles-bg";
+// import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 
 class Header extends Component {
@@ -13,7 +13,8 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <ParticlesBg type="circle" bg={true} />
+        {/* <ParticlesBg type="circle" bg={true} /> */}
+        <img src="./butcher_shop.jpg" alt="Butcher Shop"></img>
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
